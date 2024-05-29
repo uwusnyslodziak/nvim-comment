@@ -173,3 +173,10 @@ Using [packer.nvim](https://github.com/wbthomason/packer.nvim):
 use "terrortylor/nvim-comment"
 require('nvim_comment').setup()
 ```
+
+Using [vim-plug](https://github.com/junegunn/vim-plug):
+
+```lua
+Plug 'terrortylor/nvim-comment'
+lua require('nvim_comment').setup()
+```
